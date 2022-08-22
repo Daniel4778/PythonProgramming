@@ -1,2 +1,2 @@
 # PythonProgramming
-Python programming for freshmen SC class
+Python programming from freshmen SC class
