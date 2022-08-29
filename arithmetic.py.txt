@@ -1,0 +1,7 @@
+Arithmetic Operations
+sum of given numbers is  15
+difference of given numbers is -5
+product of given numbers is 50
+quotient of given numbers is 0.5
+remainder of given numbers is 5
+> 
