@@ -10,5 +10,11 @@
 #         print(i, end=' ')
 
 print("Alternate Approach")
-for k in range(1, 51git):
-    print(((2*k)-1), end=' ')
+counter = 10
+for k in range(1, 51):
+    # if (2*k-1 == 0):
+    print(2*k-1, end=' ')
+    counter=counter-1
+    if (counter == 0):
+        print("\n")
+        counter = 10
