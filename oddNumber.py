@@ -20,8 +20,8 @@
 #         counter = 10
 
 print("Printing odd numbers from first 100 natural numbers using while loop")
-i=1
-while i<=100:
+i=100
+while i>=1:
     if i%2!=0:
         print(i, end=' ')
-    i=i+1
+    i=i-1
