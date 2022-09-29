@@ -21,11 +21,11 @@
 check = 0
 sum = 0
 print("Perfect Numbers from First 100 Natural Numbers")
-for n in range (1, 101):
-    for i in range (1, int((n/2)+1)):
+for n in range(1, 101):
+    for i in range(1, int((n/2)+1)):
         check=n%i
         if(check==0):
             sum=sum+i
-if sum==n:
-    print(n, end=' ')
-
+    if sum==n:
+        print(n, end=' ')
+    sum=0
