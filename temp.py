@@ -18,8 +18,8 @@ match choice:
     case 1:
         print("Printing Odd Numbers from First 100 Natural Numbers")
         for i in range (0, 101):
-            if (i%2 != 0):
-                print(i, end=' ')
+          if (i%2 != 0):
+              print(i, end=' ')
 
     case 2:
         print("Printing Even Numbers from First 100 Natural Numbers")
@@ -60,8 +60,9 @@ match choice:
             remainder=int(number%10)
             reverse=int(reverse*10+remainder)
             number=int(number/10)
-            if originalNumber==reverse:
-                print(originalNumber, "Is a Palindrome Number")
-            else:
-                print(originalNumber, "Is not a Palindrome Number")
-
+        if originalNumber==reverse:
+            print(originalNumber, "Is a Palindrome Number")
+        else:
+            print(originalNumber, "Is not a Palindrome Number")
+    case other:
+        print("Please select a valid option from 1 to 5.")
